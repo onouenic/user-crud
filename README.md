@@ -1,36 +1,36 @@
-### Description
+# Description
 
 API de CRUD de usuário.
 
-### EndPoints
+# EndPoints
 
 ## /users/
 
-# GET
+### GET
 Retorna todos os usuários
 
-# POST
+### POST
 Cria um usuário
 
 ## /users/:id
 
-# GET
+### GET
 Retorna um usário pelo id
 
-# PUT
+### PUT
 Atualiza um usuário pelo id
 
-# DELETE
+### DELETE
 Delete um usuário pelo id
 
 
-### Installation
+# Installation
 
 ```bash
 $ npm install
 ```
 
-### Running the app
+# Running the app
 
 ```bash
 # development
