@@ -11,6 +11,7 @@ Retorna todos os usuários
 
 ### POST
 Cria um usuário
+
 Body requerido:
 ```
 {
@@ -29,6 +30,7 @@ Retorna um usário pelo id
 Atualiza um usuário pelo id
 
 Body requerido (Você pode passar 1 chave caso queira atualizar somente ele, mas é obrigatório passar pelo menos 1 chave):
+
 ```
 {
   "username": "username@email.com",
