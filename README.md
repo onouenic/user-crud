@@ -42,7 +42,6 @@ Body requerido (Você pode passar 1 chave caso queira atualizar somente ela, mas
 ### DELETE
 Delete um usuário pelo id.
 
-
 # Installation
 
 ```bash
