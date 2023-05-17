@@ -11,6 +11,14 @@ Retorna todos os usuários
 
 ### POST
 Cria um usuário
+Body requerido:
+```
+{
+  "username": "username@email.com",
+  "password": 123456,
+  "nome" : "John"
+}
+```
 
 ## /users/:id
 
@@ -19,6 +27,15 @@ Retorna um usário pelo id
 
 ### PUT
 Atualiza um usuário pelo id
+
+Body requerido (Você pode passar 1 chave caso queira atualizar somente ele, mas é obrigatório passar pelo menos 1 chave):
+```
+{
+  "username": "username@email.com",
+  "password": 123456,
+  "nome" : "John"
+}
+```
 
 ### DELETE
 Delete um usuário pelo id
