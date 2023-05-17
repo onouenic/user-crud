@@ -7,10 +7,10 @@ API de CRUD de usuário.
 ## /users/
 
 ### GET
-Retorna todos os usuários
+Retorna todos os usuários.
 
 ### POST
-Cria um usuário
+Cria um usuário.
 
 Body requerido:
 ```
@@ -24,10 +24,10 @@ Body requerido:
 ## /users/:id
 
 ### GET
-Retorna um usário pelo id
+Retorna um usário pelo id.
 
 ### PUT
-Atualiza um usuário pelo id
+Atualiza um usuário pelo id.
 
 Body requerido (Você pode passar 1 chave caso queira atualizar somente ele, mas é obrigatório passar pelo menos 1 chave):
 
@@ -40,7 +40,7 @@ Body requerido (Você pode passar 1 chave caso queira atualizar somente ele, mas
 ```
 
 ### DELETE
-Delete um usuário pelo id
+Delete um usuário pelo id.
 
 
 # Installation
